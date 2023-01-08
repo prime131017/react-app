@@ -21,3 +21,27 @@
 nav .active{
   color:white;
 }
+
+.header_link:hover{
+  color:aqua;
+}
+
+.wrapper_article{
+  width: 1110px;
+  margin:auto;
+}
+
+.header_article{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header_button{
+  background-color: #0179ff;
+  border-radius: 4px;
+  padding: 8px;
+  border: none;
+  margin: 2px;
+}
