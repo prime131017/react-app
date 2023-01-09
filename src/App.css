@@ -53,6 +53,7 @@ nav .active{
   color: rgb(80, 79, 79);
   border-radius: 3px;
   padding: 5px;
+  cursor: pointer;
 }
 
 .footer{
@@ -107,4 +108,8 @@ nav .active{
 
 .card_text{
   padding: 10px;
+}
+
+.photos {
+  width: 100%;
 }
