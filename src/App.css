@@ -38,10 +38,72 @@ nav .active{
 
 }
 
-.header_button{
+.button{
   background-color: #0179ff;
   border-radius: 4px;
   padding: 8px;
   border: none;
   margin: 2px;
+  cursor: pointer;
+}
+
+.button_card{
+  border: 1px rgb(80, 79, 79) solid;
+  background-color: transparent;
+  color: rgb(80, 79, 79);
+  border-radius: 3px;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+}
+
+.smallCard {
+  border-radius: 3px;
+  padding: 10px;
+  margin: 5px;
+  min-height: 150px;
+  width: 30%;
+}
+
+.bigCard {
+  border-radius: 3px;
+  padding: 10px;
+  margin: 5px;
+  min-height: 150px;
+  width: 47%;
+}
+
+.card_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.grayCard {
+  background-color: gray;
+  color: black;
+  }
+
+.blackCard {
+  color: white;
+  background-color: black;
+}
+
+.orangCard{
+  background-color: #fd9210;
+  color: #110362;
+}
+
+.purpleCard {
+  color: rgb(26, 68, 30);
+  background-color: purple;
+}
+.card_title {
+  padding: 10px;
+}
+
+.card_text{
+  padding: 10px;
 }
