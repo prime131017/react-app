@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 import ButtonView from './ButtonView';
+import ButtonChangeColor from './ButtonChangeColor';
+import ButtonAddArticle from './ButtonAddArticle';
 
 const Posts = () => {
 
@@ -45,7 +47,7 @@ const Posts = () => {
                     <h2 className="card_title">{post.title}</h2>
                     <p className="card_text">{post.body}</p>
                    <ButtonView title={post.title} body={post.body} />
-                     {/* <ChangeColor /> */}
+                     <ButtonChangeColor />
                 </div>
             )
         )
@@ -75,7 +77,7 @@ const Posts = () => {
                     <h2 className="card_title">{post.title}</h2>
                     <p className="card_text">{post.body}</p>
                     <ButtonView title={post.title} body={post.body} />
-                    {/* <ChangeColor /> */}
+                    <ButtonChangeColor />
                 </div>
             ))
         }
@@ -92,7 +94,8 @@ const Posts = () => {
                             size === "smallCard" ? setSize("bigCard") : setSize("smallCard")
                             numberOfCards === 3 ? setNumberOfCards(2) : setNumberOfCards(3)
                         }}>Make big cards</button>
-                        <button className="button">Add Article</button>
+                                <ButtonAddArticle updateData={handleTitleChange}/>
+
                     </div>
                 </div>
                 <div className="card_wrapper">

@@ -52,6 +52,7 @@ nav .active{
   background-color: transparent;
   color: rgb(80, 79, 79);
   border-radius: 3px;
+  padding: 5px;
 }
 
 .footer{
@@ -92,13 +93,13 @@ nav .active{
 }
 
 .orangCard{
-  background-color: #fd9210;
-  color: #110362;
+  background-color: #e2ab67;
+  color: #4932cc;
 }
 
 .purpleCard {
-  color: rgb(26, 68, 30);
-  background-color: purple;
+  color: rgb(26, 150, 39);
+  background-color: rgb(225, 162, 225);
 }
 .card_title {
   padding: 10px;

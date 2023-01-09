@@ -30,6 +30,7 @@
     -webkit-animation-duration: 0.4s;
     animation-name: slide-in;
     animation-duration: 0.5s;
+    border-radius: 8px;
   }
   
   .modal-header,
